@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" 
+    android:orientation="horizontal">
+
+        <SearchView
+            android:id="@+id/searchView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </SearchView>
+
+        <fragment
+            android:id="@+id/fragment2"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+      
+</LinearLayout>
+       
+        
+        <Button
+            android:id="@+id/buttonpick"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            
+            android:background="#3eff20"
+             android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+            android:text="Button" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/buttonpick"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:text="TextView" />
+
+</RelativeLayout>

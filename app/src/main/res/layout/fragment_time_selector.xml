@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/frame_container6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_weight="1">
+     
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="272dp"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/pickup_time_textview"
+        android:textColor="#080a08" />
+
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="fill_parent"
+        android:layout_height="175dp"
+        android:layout_above="@+id/btnnext"
+        android:layout_below="@+id/timePicker1"
+        android:layout_gravity="left"
+        android:calendarViewShown="false"
+        android:minDate="true"
+        android:spinnersShown="true" />
+
+    <TimePicker
+        android:id="@+id/timePicker1"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/textView1"
+        android:layout_gravity="left"
+        android:spinnersShown="true" />
+
+         <Button
+             android:id="@+id/btnnext"
+             android:layout_width="129dp"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentRight="true"
+             android:background="#8ffdba"
+             android:text="@string/next1"
+             android:textColor="#ffffff" />
+
+</RelativeLayout> 

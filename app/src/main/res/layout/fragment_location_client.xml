@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame_container7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_weight="2">
+
+<LinearLayout
+    android:id="@+id/clientlocator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <fragment
+        android:id="@+id/fragmentmap1"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.75" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_about" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_about" />
+
+    <Button
+        android:id="@+id/onmapnext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT" />
+</LinearLayout>
+
+</FrameLayout>

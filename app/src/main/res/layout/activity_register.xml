@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+     <RelativeLayout 
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content" android:background="#e0f2f6">
+  		<!-- Footer Start -->
+  		<LinearLayout android:id="@+id/footer"
+  				android:layout_width="fill_parent"
+  				android:layout_height="90dip"
+  				android:background="@layout/footer_repeat"
+  				android:layout_alignParentBottom="true"
+  				android:orientation="horizontal">
+  		</LinearLayout>
+  		<!-- Footer Ends --> 
+  		
+  		<!-- Registration Form -->
+		<LinearLayout
+		  
+		  android:orientation="vertical"
+		  android:layout_width="match_parent"
+		  android:layout_height="wrap_content"
+		  android:padding="10dip"
+		  >
+		  <!-- Full Name Label -->
+
+		  <TextView
+		      android:layout_width="fill_parent"
+		      android:layout_height="wrap_content"
+		      android:text="@string/name_reg"
+		      android:textColor="#372c24" 
+		      android:textSize="20sp"/>
+
+		  <!--  name Label -->
+
+		  <EditText
+		      android:id="@+id/registeration_name"
+		      android:layout_width="match_parent"
+		      android:layout_height="wrap_content"
+		      android:ems="10"
+		      android:inputType="textPersonName" 
+		      android:hint="@string/enter_full_name_"
+		      >
+
+		      <requestFocus />
+		  </EditText>
+
+		  <TextView
+		      android:id="@+id/textView1"
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:text="@string/phone_no" 
+		      android:textSize="20sp"/>
+
+		  <EditText
+		      android:id="@+id/reg_phone"
+		      android:layout_width="match_parent"
+		      android:layout_height="wrap_content"
+		      android:ems="10"
+		      android:inputType="phone"
+		      android:hint="@string/phone_number_here" />
+
+		  <TextView android:layout_width="fill_parent"
+		  		android:layout_height="wrap_content"
+		  		android:textColor="#372c24"
+		  		android:text="@string/email_view"
+		  		android:textSize="20sp"
+		  		android:layout_marginTop="10dip"/>
+		 
+           <!--  name email -->
+		  <EditText
+		      android:id="@+id/registration_email"
+		      android:layout_width="match_parent"
+		      android:layout_height="wrap_content"
+		      android:ems="10"
+		      android:inputType="textEmailAddress" 
+		      android:hint="@string/enter_email"/>
+
+		  <TextView
+		      android:layout_width="108dp"
+		      android:layout_height="wrap_content"
+		      android:text="@string/password_reg"
+		      android:textColor="#372c24"
+		      android:textSize="20sp" 
+		      android:layout_marginTop="10dip"/>
+		 
+ <!-- Password Label -->
+		  <EditText
+		      android:id="@+id/reg_password"
+		      android:layout_width="match_parent"
+		      android:layout_height="wrap_content"
+		      android:ems="10"
+		      android:inputType="textPassword" 
+		      android:hint="@string/enter_a_password"/>
+ <!-- Register Button -->
+		  <Button
+		      android:id="@+id/Register_button"
+		      android:layout_width="fill_parent"
+		      android:layout_height="wrap_content"
+		      android:layout_marginTop="30dip"
+		      android:text="@string/register_" 
+		      android:background="#00c10d"
+		      android:textColor="#fff"/>
+
+		  <!-- Link to Login Screen -->
+		  <TextView android:id="@+id/linktologin" 
+		  		android:layout_width="fill_parent"
+		  		android:layout_height="wrap_content"
+		  		android:layout_marginTop="40dip"
+		  		android:layout_marginBottom="40dip"
+		  		android:text="@string/already_on_liontaxi_login_here"
+		  		android:gravity="center"
+		  		android:textSize="20sp"
+		  		android:textColor="#00c10d"
+		  		android:background="#ffffff"/>
+		    
+		</LinearLayout>
+  		<!-- Registration Form Ends -->
+  		
+  		
+  </RelativeLayout>
+
+</ScrollView>

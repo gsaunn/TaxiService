@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#e0f2f6" >
+
+        <!-- Header  Starts -->
+        <!-- Header Ends -->
+        <!-- Footer Start -->
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="90dip"
+            android:layout_alignParentBottom="true"
+            android:background="@layout/footer_repeat" 
+            android:orientation="vertical">
+        </LinearLayout>
+        <!-- Footer Ends -->
+
+
+        <!-- Login Form -->
+
+
+        <!-- Login Form Ends -->
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/name_profile"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="27dp"
+            android:text="@string/phone_profile"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/name_profile"
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:layout_alignBaseline="@+id/textView1"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_alignLeft="@+id/logout_btn"
+            android:text="" 
+            android:background="#ffffff"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/phone_profile"
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_alignLeft="@+id/name_profile"
+            android:text="" 
+             android:background="#ffffff"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="51dp"
+            android:text="@string/password_profile"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/phone_profile"
+            android:layout_marginTop="48dp"
+            android:text="@string/email_profile"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/email_profile"
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:layout_alignLeft="@+id/phone_profile"
+            android:layout_alignTop="@+id/textView5"
+            android:text="" 
+             android:background="#ffffff"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/logout_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/password_profile"
+            android:layout_marginTop="26dp"
+            android:layout_toRightOf="@+id/textView1"
+            android:text="@string/log_out_profile" 
+            android:background="#3eff20"
+           />
+
+        <TextView
+            android:id="@+id/password_profile"
+            android:layout_width="50dip"
+            android:layout_height="30dip"
+            android:layout_alignLeft="@+id/logout_btn"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView7"
+            android:background="#ffffff"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</ScrollView>

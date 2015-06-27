@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ogomegbulam.clara"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="com.ogomegbulam.clara.googlemapsv2.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ogomegbulam.clara.RegisterActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBPP7XadXJiMqyoif385DUcO4Bun_End7A" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.ogomegbulam.clara.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.ogomegbulam.clara.MainActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.ogomegbulam.clara.Select_Pickup_AddressFragment"
+            android:label="@string/title_activity_test_main" >
+        </activity>
+        <activity
+            android:name="com.ogomegbulam.clara.Select_Pickup_Point"
+            android:label="@string/title_activity_select__pickup__point" >
+        </activity>
+        <activity
+            android:name="com.ogomegbulam.clara.AddressSearch"
+            android:label="@string/title_activity_address_search" >
+        </activity>
+        <activity
+            android:name="com.ogomegbulam.clara.MaopSSMainActivity"
+            android:label="@string/title_activity_maop_ssmain" >
+        </activity>
+        <activity
+            android:name="com.ogomegbulam.clara.DriverActivity"
+            android:label="@string/title_activity_driver" >
+        </activity>
+        <activity
+            android:name="com.ogomegbulam.clara.DriverRegistrationActivity"
+            android:label="@string/title_activity_driver_registration" >
+        </activity>
+        <activity
+            android:name="com.ogomegbulam.clara.Driver_Login_Activity"
+            android:label="@string/title_activity_driver__login_" >
+        </activity>
+        <activity
+            android:name="com.ogomegbulam.clara.ClientLocationFragment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.ogomegbulam.clara.RequestTime"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.ogomegbulam.clara.RequestTaxiFragment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.ogomegbulam.clara.Timer_Dater"
+            android:label="@string/title_activity_timer__dater" >
+        </activity>
+        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+
+        <receiver
+            android:name="com.google.android.gms.wallet.EnableWalletOptimizationReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.wallet.ENABLE_WALLET_OPTIMIZATION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

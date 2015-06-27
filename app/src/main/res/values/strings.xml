@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LION TAXI</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Request a Taxi</item>
+        <item>Profile</item>
+        <item>Tell a Friend</item>
+        <item>Suggestion or Complaint </item>
+        <item>Help</item>
+        <item>About</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_request_taxi</item>
+        <item>@drawable/ic_profile</item>
+        <item>@drawable/ic_share_lion_taxi</item>
+        <item>@drawable/ic_complain</item>
+        <item>@drawable/ic_help</item>
+        <item>@drawable/ic_about</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="pickup_time_textview">PLEASE SELECT YOUR PICKUP TIME</string>
+    <string name="next1">NEXT</string>
+    <string name="share_the_app">  SHARE THE APP WITH YOUR FRIEND </string>
+    <string name="about_our_app">\n
+        \n
+        \n
+        \n
+        
+        
+        
+        \u0020\u0020\u0020\u0020\u0020\u0020Lion Taxi is a final year project\n       \u0020\u0020\u0020\u0020\u0020 of Electronic Engineering,
+ \n\u0020\u0020\u0020\u0020\u0020\u0020University of Nigeria.\n         \u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Undertook 
+\n
+ \u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020                by
+\n      \u0020\u0020\u0020\u0020\u0020\u0020    Ugbor John and Asadu Clara. \n          \u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020 Supervised 
+\n
+    \u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020            By 
+\n    \u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020     Engr. S.O.Edeagu</string>
+    <string name="help">"\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020     How To Use Lion Taxi\n\n\u0020\u0020\u00201. Touch the date or time to spine to the \n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020required date or time for your pickup.\n\u0020\u0020\u0020(Note: when you open the app the date and  \n\u0020\u0020\u0020\u0020\u0020\u0020time is always the current date and time of\n\u0020\u0020\u0020\u0020\u0020\u0020 your  device time)
+\n\u0020\u0020\u00202. Click Next Button\n\u0020\u0020\u00203. Click on pickup location\n\u0020\u0020\u00204. Touch the lion figure and move it to your 
+  \u0020\u0020\u0020\u0020 pickup location on the map\n\u0020\u0020\u00205. Then click set location\n\u0020\u0020\u00206. Click destination location\n\u0020\u0020\u00207. Touch the lion figure and move it to your\n\u0020\u0020\u0020\u0020\u0020    dropof location on the map
+ \n\u0020\u0020\u00208. Then click set location\n\u0020\u0020\u00209. Click Next Button\n\u0020\u0020\u002010. Confirm the price by clicking confirm \n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020button\n\u0020\u0020\u002011. Wait for your taxi \n                "</string>
+    <string name="suggestion">For enquiries, suggestions or complains, please:</string>
+    <string name="textviewcomplainn">For enquiries, suggestions or complains, please:</string>
+    <string name="title_activity_login">Log In</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_register">Register</string>
+    <string name="new_to_grandtaxi_register_here">New to Liontaxi? Register Here</string>
+    <string name="login">Log In</string>
+    <string name="password">Password:</string>
+    <string name="email">Email:</string>
+    <string name="already_on_liontaxi_login_here">Already on Liontaxi! Log In Here</string>
+    <string name="register_">"Register "</string>
+    <string name="password_reg">Password:</string>
+    <string name="enter_email">Enter email</string>
+    <string name="email_view">Email:</string>
+    <string name="enter_full_name_">"full name here"</string>
+    <string name="name_reg">Name:</string>
+    <string name="enter_a_password">Enter a password</string>
+    <string name="phone_number_here">phone number here</string>
+    <string name="phone_no">Phone:</string>
+    <string name="name_profile">User Name</string>
+    <string name="phone_profile">Phone</string>
+    <string name="password_profile">Password</string>
+    <string name="email_profile">Email</string>
+    <string name="log_out_profile">Log Out</string>
+    <string name="enter_password">Enter password</string>
+    <string name="title_activity_test_main">TestMainActivity</string>
+    <string name="select_the_nearest_pickup_point">CICK TO ENTER ADDRESS</string>
+    <string name="title_activity_select__pickup__point">Select_Pickup_Point</string>
+    <string name="title_activity_address_search">AddressSearch</string>
+    <string name="title_activity_maop_ssmain">MaopSSMainActivity</string>
+    <string name="title_activity_driver">Lion_Driver</string>
+    <string name="title_activity_driver_registration">Driver_Registration</string>
+    <string name="title_activity_driver__login_">Driver_Login</string>
+    <string name="title_activity_timer__dater">Timer_Dater</string>
+
+</resources>
